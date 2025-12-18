@@ -26,4 +26,4 @@ It allows users to create, edit, delete, and organize notes with rich features l
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/note-it.git
+   git clone https://github.com/SatishGautam1/Note-It.git
