@@ -7,7 +7,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    android:orientation="horizontal"
     tools:context=".activities.MainActivity">
 
     <TextView
@@ -21,8 +20,8 @@
         android:text="@string/my_notes"
         android:textColor="@color/colorWhite"
         android:textSize="@dimen/_20ssp"
-        app:layout_constraintTop_toTopOf="parent"/>
-    
+        app:layout_constraintTop_toTopOf="parent" />
+
     <LinearLayout
         android:id="@+id/layoutSearch"
         android:layout_width="match_parent"
@@ -36,7 +35,7 @@
         android:paddingStart="@dimen/_10sdp"
         android:paddingEnd="@dimen/_10sdp"
         app:layout_constraintTop_toBottomOf="@+id/textMyNotes">
-        
+
         <ImageView
             android:layout_width="@dimen/_20sdp"
             android:layout_height="@dimen/_20sdp"
@@ -48,7 +47,7 @@
         <EditText
             android:id="@+id/inputSearch"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_35sdp"
+            android:layout_height="@dimen/_38sdp"
             android:layout_marginStart="@dimen/_12sdp"
             android:background="@null"
             android:fontFamily="@font/ubuntu_regular"
@@ -84,7 +83,7 @@
         android:orientation="horizontal"
         android:padding="@dimen/_15sdp"
         app:layout_constraintBottom_toBottomOf="parent">
-        
+
         <ImageView
             android:id="@+id/imageAddNote"
             android:layout_width="@dimen/_23sdp"
